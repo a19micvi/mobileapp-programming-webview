@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
-    
+
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/bildvy"
         android:layout_width="231dp"
         android:layout_height="261dp"
         app:srcCompat="@drawable/ic_launcher_foreground"
