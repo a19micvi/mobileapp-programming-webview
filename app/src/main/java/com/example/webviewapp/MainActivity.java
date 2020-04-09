@@ -15,10 +15,10 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
-    private WebView MyWebView;
+
 
     public void onCreate(){
-        MyWebView = findViewById(R.id.webview);
+        MyWebView = findViewById(R.id.my_webview);
     }
 
     public void showExternalWebPage(){
@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        WebView MyWebView = new WebView(this);
+        setContentView(MyWebView);
+
+        MyWebView.loadUrl("https://student.his.se/");
 
         /*
         * Rename your App. Tip: Values->Strings
@@ -61,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
            one (1) screenshot showing your external web page.
         */
 
-        
+
     }
 
     @Override
