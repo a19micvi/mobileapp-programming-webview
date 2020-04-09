@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private WebView MyWebView;
 
     public void onCreate(){
-        MyWebView = findViewById(R.id.webvy);
+        MyWebView = findViewById(R.id.webview);
     }
 
     public void showExternalWebPage(){
@@ -61,14 +61,7 @@ public class MainActivity extends AppCompatActivity {
            one (1) screenshot showing your external web page.
         */
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        
     }
 
     @Override
