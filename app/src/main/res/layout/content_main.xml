@@ -8,12 +8,11 @@
     tools:showIn="@layout/activity_main">
 
 
-    <ImageView
-        android:id="@+id/bildvy"
-        android:layout_width="231dp"
-        android:layout_height="261dp"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="235dp" />
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
